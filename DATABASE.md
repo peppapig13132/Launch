@@ -30,3 +30,9 @@ FLUSH PRIVILEGES;
 ```
 DROP USER '<username>'@'%';
 ```
+
+🧩**Import database:**
+Suppose, your database backup file is `mysql.sql`. And created an empty database `dbname` already.
+```
+mysql -u <username> -p <dbname> < mysql.sql
+```
